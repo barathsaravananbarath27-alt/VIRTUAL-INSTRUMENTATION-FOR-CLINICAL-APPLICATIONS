@@ -1,7 +1,7 @@
-#  Experiment 5 – Sorting Even Numbers using WHILE Loop in an Array in LabVIEW
+#  Experiment 6 – Array Maximum and Minimum in LabVIEW
 
 ##  Aim
-To sort even numbers from a given set of numbers using a WHILE loop in an array in LabVIEW.
+To find the maximum and minimum values (and their indices) from an array using LabVIEW.
 
 ---
 
@@ -15,29 +15,30 @@ To sort even numbers from a given set of numbers using a WHILE loop in an array 
 | Step | Description |
 |------|-------------|
 | 1 | Create a **Blank VI** in LabVIEW |
-| 2 | Right-click on the **Block Diagram** → `Programming → Structures → While Loop` |
-| 3 | Create an **Array** in the Front Panel and add a **Numeric Indicator** to it |
-| 4 | Add a **Numeric Control** in the Front Panel for input array |
-| 5 | Use **wiring** to make all required connections in the Block Diagram |
-| 6 | Enter input values in the **Front Panel** and **run** the program |
+| 2 | Right-click on **Front Panel** → `Modern → Array → Array Matrix → Numeric Control` |
+| 3 | Create **four Numeric Indicators** on the Front Panel for: Maximum Value, Max Index, Minimum Value, Min Index |
+| 4 | Use **wiring** to make all required connections in the Block Diagram |
+| 5 | Enter input values in the **Front Panel** and **run** the program |
 
 ---
 
 ##  Front Panel Layout
+<img width="976" height="984" alt="image" src="https://github.com/user-attachments/assets/420e1c1b-34d3-49ce-9acb-aed53a7338b5" />
 
-<img width="489" height="338" alt="image" src="https://github.com/user-attachments/assets/fea8eedd-7ed0-4722-9388-3240ac6ff5ad" />
+
+<img width="645" height="468" alt="image" src="https://github.com/user-attachments/assets/19aabe3c-1153-4497-bc6f-24a3a6d58d0d" />
 
 ---
 
 ##  Block Diagram Description
 
-<img width="1124" height="806" alt="image" src="https://github.com/user-attachments/assets/5a3b5961-a07a-4b97-9489-2eef9c0da7dd" />
+<img width="1346" height="1318" alt="image" src="https://github.com/user-attachments/assets/40d63cd5-c191-4dc5-b66e-c9b0ab2b7415" />
 
 
 ## Output
 
-<img width="1920" height="1200" alt="VICAEXP5" src="https://github.com/user-attachments/assets/fc9c1927-7a71-44c1-b334-ba09e535ecd7" />
+<img width="1920" height="1200" alt="VICAEXP6" src="https://github.com/user-attachments/assets/3bbcc109-9e5d-4e1e-8f1c-6a43e5981133" />
 
 ##  Result
 
-Thus the even numbers from the given set of numbers were successfully sorted using a WHILE loop in an array in LabVIEW.
+Hence the maximum and minimum values of the array along with their indices were successfully displayed using LabVIEW.
