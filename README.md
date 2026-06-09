@@ -1,7 +1,7 @@
-#  Experiment 2 – Boolean Operations using LabVIEW
+#  Experiment 3 – Sum of 'n' Numbers using FOR Loop in LabVIEW
 
 ##  Aim
-To perform Boolean operations (AND, OR, XOR, NOT, NAND) using LabVIEW.
+To find the sum of 'n' numbers using a FOR loop in LabVIEW.
 
 ---
 
@@ -14,76 +14,33 @@ To perform Boolean operations (AND, OR, XOR, NOT, NAND) using LabVIEW.
 
 | Step | Description |
 |------|-------------|
-| 1 | Start LabVIEW and select **Blank VI** |
-| 2 | Create the **Front Panel** and **Block Diagram** panel |
-| 3 | Add **Push Buttons** as inputs and **Round LEDs** as outputs on the Front Panel |
-| 4 | Place Boolean operators (`AND`, `OR`, `XOR`, `NOT`, `NAND`) in the **Block Diagram** panel |
-| 5 | Wire Boolean inputs and outputs in the **Block Diagram** panel |
-| 6 | Enter logic values `0` & `1` in the Front Panel and **run** the program to observe output |
+| 1 | Create a **Blank VI** in LabVIEW |
+| 2 | Right-click on the **Block Diagram** → `Programming → Structures → For Loop` |
+| 3 | Right-click on the **border of the FOR loop** → Select **Add Shift Register** |
+| 4 | Use **wiring** to make required connections inside the Block Diagram |
+| 5 | Enter input values in the **Front Panel** and **run** the program |
 
 ---
 
 ##  Front Panel Layout
-<img width="1090" height="884" alt="image" src="https://github.com/user-attachments/assets/44b214c4-5b37-4d00-b898-7ae5e9b89f16" />
+<img width="660" height="374" alt="image" src="https://github.com/user-attachments/assets/c849552c-0a8a-45a7-a7b1-c6e8a7cd7ea5" />
 
 
-<img width="607" height="554" alt="image" src="https://github.com/user-attachments/assets/16715e72-06dd-481f-8ed5-b945f22e4c93" />
+
+<img width="500" height="329" alt="image" src="https://github.com/user-attachments/assets/a8e7f7b1-bf22-4f6e-a9ee-34f011380148" />
 
 ---
 
 ##  Block Diagram Description
 
-<img width="1376" height="1376" alt="image" src="https://github.com/user-attachments/assets/f15a7ad8-c23d-463b-a673-fe65567e7a4e" />
+<img width="914" height="476" alt="image" src="https://github.com/user-attachments/assets/e65761f0-511a-48d0-ac16-a8b6d963dce4" />
 
-
----
-
-##  Truth Tables
-
-### AND Gate
-| X1 | X2 | Y (X1 AND X2) |
-|----|----|---------------|
-| 0  | 0  | 0             |
-| 0  | 1  | 0             |
-| 1  | 0  | 0             |
-| 1  | 1  | 1             |
-
-### OR Gate
-| X1 | X2 | Y (X1 OR X2) |
-|----|----|--------------|
-| 0  | 0  | 0            |
-| 0  | 1  | 1            |
-| 1  | 0  | 1            |
-| 1  | 1  | 1            |
-
-### XOR Gate
-| X1 | X2 | Y (X1 XOR X2) |
-|----|----|---------------|
-| 0  | 0  | 0             |
-| 0  | 1  | 1             |
-| 1  | 0  | 1             |
-| 1  | 1  | 0             |
-
-### NAND Gate
-| X1 | X2 | Y (X1 NAND X2) |
-|----|----|----------------|
-| 0  | 0  | 1              |
-| 0  | 1  | 1              |
-| 1  | 0  | 1              |
-| 1  | 1  | 0              |
-
-### NOT Gate
-| X  | Y (NOT X) |
-|----|-----------|
-| 0  | 1         |
-| 1  | 0         |
-
----
 
 ##  Output
 
-<img width="1920" height="1200" alt="VICAEXP2" src="https://github.com/user-attachments/assets/0f0a9137-eaef-4cba-97a2-b2078483949e" />
+<img width="1920" height="1200" alt="VICAEXP3" src="https://github.com/user-attachments/assets/fda6f26c-8b20-4553-b90a-8955c9f4d1c2" />
+
 
 ##  Result
 
-Thus the Boolean operations (AND, OR, XOR, NOT, NAND) using LabVIEW were successfully performed and verified using truth tables.
+Thus the sum of 'n' natural numbers using FOR loop was successfully performed in LabVIEW.
