@@ -1,7 +1,7 @@
-#  Experiment 4 – Sum of 'n' Natural Numbers using WHILE Loop in LabVIEW
+#  Experiment 5 – Sorting Even Numbers using WHILE Loop in an Array in LabVIEW
 
 ##  Aim
-To find the sum of 'n' natural numbers using a WHILE loop in LabVIEW.
+To sort even numbers from a given set of numbers using a WHILE loop in an array in LabVIEW.
 
 ---
 
@@ -16,29 +16,28 @@ To find the sum of 'n' natural numbers using a WHILE loop in LabVIEW.
 |------|-------------|
 | 1 | Create a **Blank VI** in LabVIEW |
 | 2 | Right-click on the **Block Diagram** → `Programming → Structures → While Loop` |
-| 3 | Right-click on the **border of the WHILE loop** → Convert tunnels to **Shift Registers** |
-| 4 | Place an **Adder** and a **Greater Than or Equal To** function inside the WHILE loop |
+| 3 | Create an **Array** in the Front Panel and add a **Numeric Indicator** to it |
+| 4 | Add a **Numeric Control** in the Front Panel for input array |
 | 5 | Use **wiring** to make all required connections in the Block Diagram |
 | 6 | Enter input values in the **Front Panel** and **run** the program |
 
 ---
 
 ##  Front Panel Layout
-<img width="652" height="632" alt="image" src="https://github.com/user-attachments/assets/2ae95066-be51-430a-8e92-0a8586b361a7" />
 
-
-<img width="626" height="352" alt="image" src="https://github.com/user-attachments/assets/db72b148-08d0-45d5-acf0-5eec01d55728" />
+<img width="489" height="338" alt="image" src="https://github.com/user-attachments/assets/fea8eedd-7ed0-4722-9388-3240ac6ff5ad" />
 
 ---
 
 ##  Block Diagram Description
 
-<img width="1520" height="1192" alt="image" src="https://github.com/user-attachments/assets/a282b573-6bb1-459b-a171-ca0cb29e77df" />
+<img width="1124" height="806" alt="image" src="https://github.com/user-attachments/assets/5a3b5961-a07a-4b97-9489-2eef9c0da7dd" />
+
 
 ## Output
 
-<img width="1920" height="1200" alt="VICAEXP4" src="https://github.com/user-attachments/assets/b8b27240-86b6-4123-9f64-0f4fe2ec642c" />
+<img width="1920" height="1200" alt="VICAEXP5" src="https://github.com/user-attachments/assets/fc9c1927-7a71-44c1-b334-ba09e535ecd7" />
 
 ##  Result
 
-Thus the sum of 'n' natural numbers using WHILE loop was successfully performed in LabVIEW.
+Thus the even numbers from the given set of numbers were successfully sorted using a WHILE loop in an array in LabVIEW.
